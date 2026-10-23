@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base theme (light) -->
+    <style name="Theme.Promptly" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/promptly_surface</item>
+        <item name="android:statusBarColor">@color/promptly_green_dark</item>
+        <item name="android:navigationBarColor">@color/promptly_surface</item>
+    </style>
+
+    <!-- Splash theme (light) -->
+    <style name="Theme.Promptly.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.Promptly</item>
+    </style>
+</resources>

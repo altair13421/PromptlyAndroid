@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Empty-state illustration: friendly bell with a soft smile -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="160"
+    android:viewportHeight="160">
+
+    <!-- Soft circle backdrop -->
+    <path
+        android:fillColor="#1A2E7D32"
+        android:pathData="M80,80 m-72,0 a72,72 0 1,0 144,0 a72,72 0 1,0 -144,0 Z" />
+
+    <!-- Bell body -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M80,32
+            C58,32 50,48 50,68
+            C50,80 46,88 40,96
+            L120,96
+            C114,88 110,80 110,68
+            C110,48 102,32 80,32 Z" />
+
+    <!-- Bell bottom flare -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M40,96 L120,96 L120,104 L40,104 Z" />
+
+    <!-- Clapper -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M70,108
+            a10,10 0 1,0 20,0 Z" />
+
+    <!-- Highlight -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.35"
+        android:pathData="M64,52
+            C60,58 58,66 58,74
+            L62,74
+            C62,66 64,60 67,55 Z" />
+
+    <!-- Smile (subtle) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70,86
+            Q80,92 90,86
+            L90,88
+            Q80,94 70,88 Z" />
+</vector>

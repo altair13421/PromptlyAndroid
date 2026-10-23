@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adaptive icon foreground: clock + arrow on transparent canvas.
+     Drawn at 108dp, safe-zone = 72dp centered. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Clock outer ring -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,28
+            C40,28 28,40 28,54
+            C28,68 40,80 54,80
+            C68,80 80,68 80,54
+            C80,40 68,28 54,28 Z
+            M54,74
+            C43,74 34,65 34,54
+            C34,43 43,34 54,34
+            C65,34 74,43 74,54
+            C74,65 65,74 54,74 Z" />
+
+    <!-- Clock hour hand -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,42 L56,42 L56,56 L52,56 Z" />
+
+    <!-- Clock minute hand (pointing toward upper-right at ~10 past 12) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54 L66,46 L68,49 L56,57 Z" />
+
+    <!-- Center hub -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,51 L57,51 L57,57 L51,57 Z" />
+
+    <!-- Forward arrow (top-right): indicates "next, time passing" -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M70,30
+            L82,30
+            L82,42
+            L78,42
+            L78,37
+            Q72,42 70,48
+            L66,46
+            Q69,39 75,34
+            L70,34 Z" />
+
+</vector>

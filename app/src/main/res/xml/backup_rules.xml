@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <include domain="database" path="promptly.db" />
+    <include domain="database" path="promptly.db-journal" />
+    <include domain="sharedpref" path="." />
+    <include domain="file" path="pictures/" />
+    <exclude domain="sharedpref" path="device.xml" />
+</full-backup-content>

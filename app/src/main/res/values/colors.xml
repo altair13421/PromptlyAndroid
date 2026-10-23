@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="promptly_green">#2E7D32</color>
+    <color name="promptly_green_light">#4C9A50</color>
+    <color name="promptly_green_dark">#1B5E20</color>
+    <color name="promptly_accent">#FFB300</color>
+    <color name="promptly_surface">#FFFBFE</color>
+    <color name="promptly_on_surface">#1F1B16</color>
+
+    <!-- Widget -->
+    <color name="widget_background">#FFFFFFFF</color>
+    <color name="widget_text">#1F1B16</color>
+    <color name="widget_subtext">#5C554B</color>
+    <color name="widget_accent">#2E7D32</color>
+
+    <!-- Splash -->
+    <color name="splash_background">#2E7D32</color>
+</resources>

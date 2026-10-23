@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Promptly</string>
+    <string name="app_tagline">Friendly reminders, on time.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Reminders</string>
+    <string name="nav_create">New reminder</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home screen -->
+    <string name="home_title">Your reminders</string>
+    <string name="home_empty_title">No reminders yet</string>
+    <string name="home_empty_subtitle">Tap + to add your first reminder.\nPromptly will ring you back — with a custom tone if you want.</string>
+    <string name="home_fab_content_desc">Create new reminder</string>
+    <string name="home_filter_all">All</string>
+    <string name="home_filter_today">Today</string>
+    <string name="home_filter_upcoming">Upcoming</string>
+    <string name="home_filter_done">Done</string>
+
+    <!-- Create / Edit -->
+    <string name="create_title">New reminder</string>
+    <string name="edit_title">Edit reminder</string>
+    <string name="create_field_title">What do you need to remember?</string>
+    <string name="create_field_title_placeholder">e.g. Pick up the dry cleaning</string>
+    <string name="create_field_notes">Notes (optional)</string>
+    <string name="create_field_notes_placeholder">Extra context, where to go, what to say…</string>
+    <string name="create_field_time">When</string>
+    <string name="create_field_recurrence">Repeat</string>
+    <string name="create_field_sound">Reminder sound</string>
+    <string name="create_choose_sound">Choose sound</string>
+    <string name="create_sound_app_default">Use app default</string>
+    <string name="create_import_sound">Import audio file…</string>
+    <string name="create_attach_picture">Attach a picture</string>
+    <string name="create_take_picture">Take a picture</string>
+    <string name="create_camera_permission_denied">Camera permission is needed to take a picture.</string>
+    <string name="create_camera_unavailable">No camera app is available to take a picture.</string>
+    <string name="create_change_picture">Change picture</string>
+    <string name="create_remove_picture">Remove picture</string>
+    <string name="create_save">Save reminder</string>
+    <string name="create_update">Update reminder</string>
+    <string name="create_cancel">Cancel</string>
+    <string name="create_validation_no_title">Add a title first</string>
+    <string name="create_validation_no_time">Pick a time first</string>
+
+    <!-- Recurrence -->
+    <string name="recurrence_none">Once</string>
+    <string name="recurrence_daily">Daily</string>
+    <string name="recurrence_weekdays">Weekdays (Mon–Fri)</string>
+    <string name="recurrence_weekly">Weekly</string>
+    <string name="recurrence_custom">Custom…</string>
+    <string name="recurrence_every_n_days">Every %1$d days</string>
+    <string name="recurrence_every_n_weeks">Every %1$d weeks</string>
+
+    <!-- Detail -->
+    <string name="detail_snooze">Snooze 10 min</string>
+    <string name="detail_done">Mark as done</string>
+    <string name="detail_delete">Delete</string>
+    <string name="detail_edit">Edit</string>
+    <string name="detail_delete_confirm">Delete this reminder?</string>
+    <string name="detail_delete_confirm_yes">Delete</string>
+    <string name="detail_delete_confirm_no">Keep</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_dark_mode">Dark theme</string>
+    <string name="settings_dark_mode_system">Follow system</string>
+    <string name="settings_dark_mode_on">Always on</string>
+    <string name="settings_dark_mode_off">Always off</string>
+    <string name="settings_dynamic_color">Dynamic colors (Material You)</string>
+    <string name="settings_sound">Sound &amp; vibration</string>
+    <string name="settings_ringtone">Reminder ringtone</string>
+    <string name="settings_ringtone_default">Gentle chime (default)</string>
+    <string name="settings_ringtone_pick_device">Pick from device…</string>
+    <string name="settings_vibrate">Vibrate</string>
+    <string name="settings_data">Data</string>
+    <string name="settings_backup">Export backup (.zip)</string>
+    <string name="settings_restore">Restore from backup</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_version">Version</string>
+    <string name="settings_about_made">Made with care.</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_reminders">Reminders</string>
+    <string name="notif_channel_reminders_desc">Fires when a reminder is due.</string>
+    <string name="notif_action_done">Done</string>
+    <string name="notif_action_snooze">Snooze 10m</string>
+
+    <!-- Widget -->
+    <string name="widget_title">Next reminders</string>
+    <string name="widget_empty">No upcoming reminders</string>
+
+    <!-- Backup -->
+    <string name="backup_success">Backup saved to Downloads</string>
+    <string name="backup_failed">Backup failed</string>
+    <string name="restore_success">Restored %1$d reminders</string>
+    <string name="restore_failed">Restore failed</string>
+
+    <!-- Permissions -->
+    <string name="perm_notifications_title">Allow notifications</string>
+    <string name="perm_notifications_rationale">Promptly needs permission to notify you when a reminder is due. Without it, the app cannot ring you back.</string>
+    <string name="perm_notifications_grant">Allow</string>
+    <string name="perm_notifications_dismiss">Not now</string>
+    <string name="perm_alarms_title">Allow exact alarms</string>
+    <string name="perm_alarms_rationale">Android requires you to grant Promptly permission to schedule exact alarms so reminders fire on time.</string>
+    <string name="perm_alarms_grant">Open settings</string>
+    <string name="perm_battery_title">Disable battery optimization</string>
+    <string name="perm_battery_rationale">If Android aggressively puts Promptly to sleep, your reminders may fire late. Whitelist Promptly to ensure on-time delivery.</string>
+    <string name="perm_battery_grant">Whitelist now</string>
+
+    <!-- Misc -->
+    <string name="cd_back">Back</string>
+    <string name="cd_more">More</string>
+    <string name="cd_close">Close</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+</resources>

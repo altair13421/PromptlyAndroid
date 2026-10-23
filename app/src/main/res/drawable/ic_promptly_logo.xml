@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- In-app brand logo: forest green rounded square with white clock + accent arrow.
+     Used in headers / splash / about screen. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Rounded background -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M10,2 L38,2
+            Q46,2 46,10 L46,38
+            Q46,46 38,46 L10,46
+            Q2,46 2,38 L2,10
+            Q2,2 10,2 Z" />
+
+    <!-- Clock outer ring (white) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,11
+            C16.8,11 11,16.8 11,24
+            C11,31.2 16.8,37 24,37
+            C31.2,37 37,31.2 37,24
+            C37,16.8 31.2,11 24,11 Z
+            M24,33
+            C19,33 15,29 15,24
+            C15,19 19,15 24,15
+            C29,15 33,19 33,24
+            C33,29 29,33 24,33 Z" />
+
+    <!-- Hour hand (12 o\'clock direction) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,17 L26,17 L26,25 L22,25 Z" />
+
+    <!-- Minute hand (toward upper-right) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,24 L31,20 L33,23 L26,27 Z" />
+
+    <!-- Center hub -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,22 L26,22 L26,26 L22,26 Z" />
+
+    <!-- Accent arrow -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M33,9
+            L41,9
+            L41,17
+            L38,17
+            L38,14
+            Q34,17 33,21
+            L30,20
+            Q32,15 36,12
+            L33,12 Z" />
+</vector>

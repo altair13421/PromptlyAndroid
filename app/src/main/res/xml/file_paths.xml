@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- App-internal files (for backups + picture share) -->
+    <files-path name="backups" path="backups/" />
+    <files-path name="pictures" path="pictures/" />
+    <files-path name="ringtones" path="ringtones/" />
+    <cache-path name="cache" path="." />
+    <external-files-path name="external_pictures" path="pictures/" />
+</paths>
