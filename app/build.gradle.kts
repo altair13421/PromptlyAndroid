@@ -17,8 +17,8 @@ android {
         applicationId = "com.promptly.app"
         minSdk = 29
         targetSdk = 35
-        versionCode = 10
-        versionName = "0.3.1"
+        versionCode = 11
+        versionName = "0.3.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables { useSupportLibrary = true }
